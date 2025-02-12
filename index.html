@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sameena Parveen - Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://drive.google.com/file/d/1LGE45DGv67gzk9tbfZ_9946CNGW8vPfZ/view?usp=drive_link"
+                    target="_blank" download>Resume</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <!-- <img src="C:\Users\SAMEENA\Downloads\DSC_5988.JPG" alt=""> -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm sameena parveen from <span>Hyderabad.</span><br>A aspiring web engineer from Hyderabad with
+            a strong foundation in backend development. I specialize in HTML,Java,Node.js, Express, and MongoDB,
+            Im a lifelong learner and avidly pursue online courses to stay updated with the latest trends and
+            technologies in the tech industry. whether its mastering new programming languages exploring
+            cutting-edge development frameworks.Im always up for the challenge!. With 7 years of experience as a
+            social worker, I bring a unique perspective on user needs and problem-solving. I'm currently focused
+            on sharpening my coding skills and seeking a backend development internship to gain hands-on
+            experience and contribute to impactful projects."</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Recently built and deployed a modern medical healthcare app integrating features like
+            appointment scheduling, telemedicine, and electronic health records."Modern medical-care
+            services",which is a trusted platform for accessing health care services. It is one of the Indias's leading
+            digital health care platform from doctor to online pharmacy and lab tests at home.We have it all covered for
+            you. we are on a mission to bring "care to health" to give you a good experiance. This project aims to
+            provide users with convenient, accessible and high -quality medical care. Features: 1: General consultation.
+            2: Appointments. 3: Tests and Diagnostics.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: 7095126194</p>
+        <p>Email: <a href="mailto:parveensam91@gmail.com">parveensam91@gmail.com</a></p>
+    </section>
+</body>
+<script>
+    document.querySelectorAll('.navbar a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            if (this.getAttribute('href').startsWith('#')) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+</script>
+
+</html>
