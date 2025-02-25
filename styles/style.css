@@ -52,3 +52,20 @@ section {
 #skills { background: #bbb; }
 #projects { background: #999; }
 #contact { background: #777; color: white; }
+
+@media(max-width:1024px-768px){
+body{
+    width: 100%;  /* Makes the image fill its container */
+    max-width: 600px;  /* Prevents it from getting too large */
+    height: auto;  /* Maintains aspect ratio */
+    display: block;
+    margin: 20px auto;  /* Centers the image */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+}
+/* Adjustments for smaller screens  */
+@media(max-width: 768px) {
+    body {
+        max-width: 90%; /* Make it more flexible on smaller screens */
+    } 
+} 
