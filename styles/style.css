@@ -47,11 +47,14 @@ section {
     text-align: center;
     min-height: 100vh;
 }
+
+
 #home { background: #f4f4f4; }
 #about { background: #ddd; }
 #skills { background: #bbb; }
 #projects { background: #999; }
 #contact { background: #777; color: white; }
+
 
 @media(max-width:1024px-768px){
 body{
