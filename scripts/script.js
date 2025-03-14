@@ -12,12 +12,12 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
 const projects = [
     {
         title: "Project 1",
-        description: "Modern medical healthcare app. Technologies used: HTML, CSS, JavaScript.",
+        description: "Modern medical healthcare app, which is a trusted platform for accessing health care services. Technologies used: HTML, CSS, JavaScript.",
         github: "https://github.com/sameena-parveen/modern-medical-care"
     },
     {
         title: "Project 2",
-        description: "Simple todo Manager API. Technologies used: Node.js, MongoDB, Express.",
+        description: "Simple todo Manager API,It allow users to create, read, update, and delete todos.Technologies used: Node.js, MongoDB, Express.",
         github: "https://github.com/sameena-parveen/simpleTodoapp"
     }
     // Add more projects as needed
